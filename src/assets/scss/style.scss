@@ -27,16 +27,9 @@ a {
   text-decoration: none;
 }
 
-.highlight-font {
-  font-family: "Pinyon Script", cursive;
-  // font-style: italic;
-  font-weight: 200;
-  font-size: 40px;
-  line-height: 62px;
-}
-
 /* Blocks */
 @import "blocks/page.scss";
 @import "blocks/header";
 @import "blocks/container.scss";
+@import "blocks/section.scss";
 @import "blocks/main.scss";
