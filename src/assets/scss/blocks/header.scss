@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: $header-height;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: transparent;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.header__nav__item {
+  cursor: pointer;
+  &:not(:last-child) {
+    margin-right: 2.8rem;
+  }
+}
