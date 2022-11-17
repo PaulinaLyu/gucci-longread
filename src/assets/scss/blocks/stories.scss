@@ -1,20 +1,39 @@
+.stories--grid-row {
+  grid-template-rows: 3.6rem 6.6rem 25.5rem 11.8rem 40.7rem;
+  grid-row-gap: 30px;
+}
+
 .stories__item__first-col {
   grid-column: 1/4;
+  grid-row: 2/2;
 }
 .stories__item__second-col {
   grid-column: 4/9;
+  grid-row: 2/5;
 }
 
 .stories__item__third-col {
   grid-column: 10/12;
+  grid-row: 2/3;
+}
+
+.stories__item__forth-col {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.stories__item__fifth-col {
+  grid-column: 10/12;
+  grid-row: 4/5;
+}
+
+.stories__item__sixth-col {
+  grid-column: 1/4;
+  grid-row: 5/5;
 }
 
 .stories__item__text {
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 2.9rem;
-}
-
-.stories__item__forth-col {
-  grid-column: 1/4;
 }

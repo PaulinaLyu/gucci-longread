@@ -1,0 +1,28 @@
+.team__item__first-col {
+    grid-column: 1/4;
+}
+
+.team__item__second-col {
+    grid-column: 4/6;
+}
+
+.team__item__third-col {
+    grid-column: 7/10;
+}
+
+
+.team__item__forth-col {
+    grid-column: 1/12;
+}
+
+.team__item__text {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.team__item__forth-col__img {
+    margin-top: 4.3rem;
+    margin-bottom: 8.5rem;
+}
