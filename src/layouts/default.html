@@ -4,9 +4,9 @@
     {{> head }}
   </head>
   <body>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- <div class="page"> -->
-    {{> header }} {{> main }}
+    {{> main }}
     <!-- <div class="page"> -->
     <div class="container">{{> body }}</div>
     <!-- </div> -->
@@ -14,10 +14,14 @@
 
     <script src="assets/js/app.js"></script>
 
-    <!-- <script>
+    <script>
       var swiper = new Swiper(".swiper", {
         // loop: true,
         grabCursor: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
         keyboard: {
           enabled: true,
           onlyInViewport: true,
@@ -27,10 +31,9 @@
           sensitivity: 1,
           eventsTarget: ".swiper",
         },
-        slidesPerView: 2.8,
-        spaceBetween: 3,
+        slidesPerView: 1,
         autoHeight: true,
       });
-    </script> -->
+    </script>
   </body>
 </html>

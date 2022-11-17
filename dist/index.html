@@ -11,10 +11,10 @@
       rel="stylesheet"
     />
     
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    /> -->
+    />
     
     <!-- Useful meta tags -->
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -30,34 +30,68 @@
     <title>Gucci</title>
   </head>
   <body>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- <div class="page"> -->
-    <header class="header">
-  <nav class="header__nav">
-    <div class="header__nav__item">
-      <a href="#">коллекции</a>
+    <div class="main">
+      <header class="header">
+        <nav class="header__nav">
+          <div class="header__nav__item">
+            <a href="#">коллекции</a>
+          </div>
+          <div class="header__nav__item">
+            <a href="#">мужчины</a>
+          </div>
+          <div class="header__nav__item">
+            <a href="#">женщины</a>
+          </div>
+          <div class="header__nav__item">
+            <a href="#">украшения</a>
+          </div>
+          <div class="header__nav__item">
+            <a href="#">дети</a>
+          </div>
+          <div class="header__nav__item">
+            <a href="#">часы</a>
+          </div>
+        </nav>
+      </header>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slider__item">
+              <img
+              class="img main__img"
+              src="../assets/images/main/image_main_first.png"
+              alt="Афроамериаканец в синем костюме лежит"
+            />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__item">
+              <img
+                class="main__img"
+                src="../assets/images/main/image_main_second.png"
+                alt="Афроамериаканец в профиль"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__item">
+              <img
+                class="main__img"
+                src="../assets/images/main/image_main_third.png"
+                alt="Девушка в очках и за рулем"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    
+      <div class="main__title">Gucci</div>
     </div>
-    <div class="header__nav__item">
-      <a href="#">мужчины</a>
-    </div>
-    <div class="header__nav__item">
-      <a href="#">женщины</a>
-    </div>
-    <div class="header__nav__item">
-      <a href="#">украшения</a>
-    </div>
-    <div class="header__nav__item">
-      <a href="#">дети</a>
-    </div>
-    <div class="header__nav__item">
-      <a href="#">часы</a>
-    </div>
-  </nav>
-</header>
- <div class="main">
-  <div class="main__title">Gucci</div>
-</div>
-
     <!-- <div class="page"> -->
     <div class="container">
 <div class="section">
@@ -430,10 +464,14 @@
 
     <script src="assets/js/app.js"></script>
 
-    <!-- <script>
+    <script>
       var swiper = new Swiper(".swiper", {
         // loop: true,
         grabCursor: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
         keyboard: {
           enabled: true,
           onlyInViewport: true,
@@ -443,10 +481,9 @@
           sensitivity: 1,
           eventsTarget: ".swiper",
         },
-        slidesPerView: 2.8,
-        spaceBetween: 3,
+        slidesPerView: 1,
         autoHeight: true,
       });
-    </script> -->
+    </script>
   </body>
 </html>
