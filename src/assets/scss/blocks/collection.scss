@@ -1,18 +1,22 @@
-.collection__item__first {
+.collection__item__first-col {
+  // grid-column: $collection-col-grid-first;
   grid-column: 1/6;
 }
 
-.collection__item__second {
+.collection__item__second-col {
+  // grid-column: $collection-col-grid-second;
   grid-column: 7/10;
   margin-top: 25.6rem;
 }
 
-.collection__item__third {
+.collection__item__third-col {
+  // grid-column: $collection-col-grid-third;
   grid-column: 10/12;
   margin-top: 3.4rem;
 }
 
-.collection__item__forth {
+.collection__item__forth-col {
+  // grid-column: $collection-col-grid-forth;
   grid-column: 4/10;
   margin-top: 6.2rem;
 }
