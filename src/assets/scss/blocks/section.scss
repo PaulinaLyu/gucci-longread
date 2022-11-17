@@ -1,7 +1,22 @@
-section {
+.section {
+  margin-top: 16rem;
+
+  display: grid;
+  justify-content: center;
+  // grid-template-columns: repeat(
+  //   $main-page-num-col,
+  //   calc($main-page-size / $main-page-num-col)
+  // );
+
+  grid-template-columns: repeat($main-page-num-col, 85px);
+
+  grid-column-gap: $main-page-col-gap;
 }
 
 .section__title {
+  display: inline-block;
+  margin-bottom: 6rem;
+
   font-weight: 500;
   font-size: 4.8rem;
   line-height: 5.8rem;

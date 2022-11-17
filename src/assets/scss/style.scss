@@ -27,9 +27,16 @@ a {
   text-decoration: none;
 }
 
+img {
+  // width: 100%;
+  background-color: black;
+}
+
 /* Blocks */
 @import "blocks/page.scss";
 @import "blocks/header";
 @import "blocks/container.scss";
 @import "blocks/section.scss";
 @import "blocks/main.scss";
+@import "blocks/collection.scss";
+@import "blocks/btn.scss";

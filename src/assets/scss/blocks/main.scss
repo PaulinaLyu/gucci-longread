@@ -1,8 +1,6 @@
 .main {
-  width: 100%;
+  width: 100vw;
   height: calc(100vh - ($header-height));
-
-  grid-column: 1/12;
 
   position: relative;
 

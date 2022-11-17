@@ -1,14 +1,5 @@
 .container {
-  // max-width: $main-page-size;
-  // margin: auto;
-
-  // display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(
-    $main-page-num-col,
-    calc($main-page-size / $main-page-num-col)
-  );
-  // grid-template-columns: repeat(12, 85px);
-
-  grid-column-gap: $main-page-col-gap;
+  max-width: 134rem;
+  margin: auto;
+  overflow: hidden;
 }

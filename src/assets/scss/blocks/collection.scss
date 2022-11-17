@@ -1,3 +1,28 @@
-.collection {
-  margin-top: 16rem;
+.collection__item__first {
+  grid-column: 1/6;
+}
+
+.collection__item__second {
+  grid-column: 7/10;
+  margin-top: 25.6rem;
+}
+
+.collection__item__third {
+  grid-column: 10/12;
+  margin-top: 3.4rem;
+}
+
+.collection__item__forth {
+  grid-column: 4/10;
+  margin-top: 6.2rem;
+}
+
+.collection__item__text {
+  display: inline-block;
+
+  margin-top: 1.8rem;
+
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
 }
