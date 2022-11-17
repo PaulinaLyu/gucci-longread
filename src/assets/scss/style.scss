@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: $main-font-color;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -32,8 +32,14 @@ img {
   background-color: black;
 }
 
+.svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-bottom: 1rem;
+}
+
 /* Blocks */
-@import "blocks/page.scss";
+@import "blocks/swiper";
 @import "blocks/header";
 @import "blocks/container.scss";
 @import "blocks/section.scss";

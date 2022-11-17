@@ -1,0 +1,14 @@
+.swiper .swiper-pagination-bullet {
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  background-color: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 15rem !important;
+}

@@ -3,19 +3,19 @@
   height: calc(100vh);
   overflow: hidden;
   position: relative;
-
-  background-color: red;
 }
 
 .main__img {
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: red;
 }
 
 .main__title {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 10;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 

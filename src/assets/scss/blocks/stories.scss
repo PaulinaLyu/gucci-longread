@@ -1,6 +1,6 @@
 .stories--grid-row {
-  grid-template-rows: 3.6rem 6.6rem 25.5rem 11.8rem 40.7rem;
-  grid-row-gap: 30px;
+  grid-template-rows: 10rem 7rem 25.9rem 8.9rem 40.7rem;
+  grid-row-gap: 3rem;
 }
 
 .stories__item__first-col {
@@ -8,12 +8,12 @@
   grid-row: 2/2;
 }
 .stories__item__second-col {
-  grid-column: 4/9;
+  grid-column: 4/10;
   grid-row: 2/5;
 }
 
 .stories__item__third-col {
-  grid-column: 10/12;
+  grid-column: 10/13;
   grid-row: 2/3;
 }
 
@@ -23,13 +23,22 @@
 }
 
 .stories__item__fifth-col {
-  grid-column: 10/12;
+  grid-column: 10/13;
   grid-row: 4/5;
 }
 
 .stories__item__sixth-col {
   grid-column: 1/4;
   grid-row: 5/5;
+}
+
+.stories__item__sub {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: 1rem;
 }
 
 .stories__item__text {
