@@ -19,11 +19,23 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
 
+  font-family: "Granjon LT";
+
   font-size: 25rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 84.1%;
   text-transform: uppercase;
   color: #fff;
 }
 
-// .main__bg-img {
-// }
+.main__subtitle {
+  position: absolute;
+  bottom: 9.7rem;
+  right: 19rem;
+  z-index: 20;
+
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #fff;
+}

@@ -499,6 +499,16 @@ img {
   margin-right: 2.8rem;
 }
 
+.header__btn {
+  position: absolute;
+  top: 5rem;
+  right: 10rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
 .container {
   max-width: 134rem;
   margin: auto;
@@ -543,9 +553,22 @@ img {
   z-index: 10;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  font-family: "Granjon LT";
   font-size: 25rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 84.1%;
   text-transform: uppercase;
+  color: #fff;
+}
+
+.main__subtitle {
+  position: absolute;
+  bottom: 9.7rem;
+  right: 19rem;
+  z-index: 20;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   color: #fff;
 }
 
